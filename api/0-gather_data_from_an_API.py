@@ -37,6 +37,7 @@ def get_employee_todo_progress(employee_id):
     for task in done_tasks:
         print("\t {}".format(task.get("title")))
 
+
 if __name__ == "__main__":
     employee_id = int(sys.argv[1])
     get_employee_todo_progress(employee_id)
