@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 Gathers data from the JSONPlaceholder API for a given employee ID
 and displays their TODO list progress.
